@@ -20,7 +20,7 @@ public class TestNG1 {
   @BeforeMethod
 @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
-	  System.setProperty("webdriver.ie.driver", "C:\\gauri\\Personal\\Software\\IEDriverServer.exe");
+	  System.setProperty("webdriver.ie.driver", "C:\\Users\\sandip.sutariya\\driver\\IEDriverServer.exe");
     driver = new InternetExplorerDriver();
     
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
