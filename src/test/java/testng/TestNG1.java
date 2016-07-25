@@ -29,8 +29,8 @@ public class TestNG1 {
   @Test
   public void testSampleLoginApplication() throws Exception {
     // ERROR: Caught exception [ERROR: Unsupported command [openWindow | file:///C:/Users/gauri.devdas.prabhu/MavenWebProject/src/main/webapp/index.jsp | ]]
-	  driver.get("http://localhost:8080/firstmavenwebapp/index.jsp");
-    AssertJUnit.assertTrue(isElementPresent(By.linkText("Facebook")));
+	  driver.get("http://localhost:8181/firstmavenwebapp/index.jsp");
+    //AssertJUnit.assertTrue(isElementPresent(By.linkText("Facebook")));
     AssertJUnit.assertTrue(isElementPresent(By.linkText("Twitter")));
     AssertJUnit.assertTrue(isElementPresent(By.linkText("Google+")));
     AssertJUnit.assertEquals(driver.getTitle(), "Sample Login Form");
