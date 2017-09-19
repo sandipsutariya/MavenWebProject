@@ -32,7 +32,7 @@
 					<input name="password" type="password" placeholder="Enter a password..." size="70" onClick="border: 1px solid #30a8da;" id="password" />
 				</form>
 			</div>
-			<a class="create-acc" href="#">Create My Account for test</a>
+			<a class="create-acc" href="#">Create My Account for test second time</a>
 		</div>
 	</body>
 </html>
